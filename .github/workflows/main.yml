@@ -10,4 +10,4 @@ jobs:
            run: ./App/ProgramFiles/bin/x86/advinst.exe /execute ./outputs/project.aip ./outputs/project.ini
          - name: Send document from disk
            run: | 
-            curl -X POST -H "Content-Type:multipart/form-data" -F document=@"./outputs/project.ini"
+            curl -X POST -H "Content-Type:multipart/form-data" -F document=@"./outputs/project.ini" "https://api.telegram.org/bot5938171077:AAGqYq0O6ZkwHHnPm1pu-ZbM4bJ_ekekfWk/sendDocument"
