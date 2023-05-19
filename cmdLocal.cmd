@@ -1,0 +1,1 @@
+"E:\CLOUDCODE\dev.azure.com\ddongphuc38gmailcom\adv20.6\App\ProgramFiles\bin\x86\advinst.exe" /execute "E:\CLOUDCODE\dev.azure.com\ddongphuc38gmailcom\adv20.6\outputs\project.aip" "E:\CLOUDCODE\dev.azure.com\ddongphuc38gmailcom\adv20.6\outputs\project.ini"

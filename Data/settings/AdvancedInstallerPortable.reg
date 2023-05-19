@@ -1,0 +1,103 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer]
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\New Project]
+"Use wizard"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Recent Document List]
+"DocumentCount"=dword:0000000a
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Settings]
+"Window Placement"=hex:2c,00,00,00,00,00,00,00,01,00,00,00,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,99,02,00,00,c4,01,00,00,9a,06,00,00,8e,03,00,\
+  00
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Settings\Account]
+"Stamp"="2023-05-19"
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Start Page]
+"FirstSeenDate"=hex:e2,07,04,00,01,00,17,00,00,00,00,00,00,00,00,00
+"Last Tweet ID"="985877117572435969"
+"NewsLastModified"=hex:e2,07,04,00,04,00,13,00,0b,00,0d,00,14,00,00,00
+"OptionsState"=dword:00000001
+"EnableMsgCenter"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Start Page WinRT]
+"GUI State Path"="catMsi\\0"
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\Templates List]
+"TemplatesCount"=dword:00000062
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions]
+"Left Pane View"=dword:00000001
+"Show Only NonEmpty Views"=dword:00000000
+"Ribbon State 2"=hex:3c,73,69,71,3a,63,75,73,74,6f,6d,55,49,20,78,6d,6c,6e,73,\
+  3a,73,69,71,3d,22,68,74,74,70,3a,2f,2f,73,63,68,65,6d,61,73,2e,6d,69,63,72,\
+  6f,73,6f,66,74,2e,63,6f,6d,2f,77,69,6e,64,6f,77,73,2f,32,30,30,39,2f,72,69,\
+  62,62,6f,6e,2f,71,61,74,22,3e,3c,73,69,71,3a,72,69,62,62,6f,6e,20,6d,69,6e,\
+  69,6d,69,7a,65,64,3d,22,66,61,6c,73,65,22,3e,3c,73,69,71,3a,71,61,74,20,70,\
+  6f,73,69,74,69,6f,6e,3d,22,30,22,3e,3c,73,69,71,3a,73,68,61,72,65,64,43,6f,\
+  6e,74,72,6f,6c,73,3e,3c,73,69,71,3a,63,6f,6e,74,72,6f,6c,20,69,64,51,3d,22,\
+  73,69,71,3a,33,37,32,36,31,22,20,76,69,73,69,62,6c,65,3d,22,74,72,75,65,22,\
+  20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,63,6f,6e,74,\
+  72,6f,6c,20,69,64,51,3d,22,73,69,71,3a,33,37,32,36,33,22,20,76,69,73,69,62,\
+  6c,65,3d,22,74,72,75,65,22,20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,\
+  3c,73,69,71,3a,63,6f,6e,74,72,6f,6c,20,69,64,51,3d,22,73,69,71,3a,33,37,32,\
+  36,34,22,20,76,69,73,69,62,6c,65,3d,22,74,72,75,65,22,20,61,72,67,75,6d,65,\
+  6e,74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,63,6f,6e,74,72,6f,6c,20,69,64,51,\
+  3d,22,73,69,71,3a,33,32,38,39,36,22,20,76,69,73,69,62,6c,65,3d,22,74,72,75,\
+  65,22,20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,63,6f,\
+  6e,74,72,6f,6c,20,69,64,51,3d,22,73,69,71,3a,37,33,22,20,76,69,73,69,62,6c,\
+  65,3d,22,74,72,75,65,22,20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,3c,\
+  73,69,71,3a,63,6f,6e,74,72,6f,6c,20,69,64,51,3d,22,73,69,71,3a,33,32,37,39,\
+  36,22,20,76,69,73,69,62,6c,65,3d,22,74,72,75,65,22,20,61,72,67,75,6d,65,6e,\
+  74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,63,6f,6e,74,72,6f,6c,20,69,64,51,3d,\
+  22,73,69,71,3a,37,35,22,20,76,69,73,69,62,6c,65,3d,22,74,72,75,65,22,20,61,\
+  72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,63,6f,6e,74,72,6f,\
+  6c,20,69,64,51,3d,22,73,69,71,3a,37,36,22,20,76,69,73,69,62,6c,65,3d,22,74,\
+  72,75,65,22,20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,3e,3c,73,69,71,3a,\
+  63,6f,6e,74,72,6f,6c,20,69,64,51,3d,22,73,69,71,3a,36,34,22,20,76,69,73,69,\
+  62,6c,65,3d,22,74,72,75,65,22,20,61,72,67,75,6d,65,6e,74,3d,22,30,22,20,2f,\
+  3e,3c,2f,73,69,71,3a,73,68,61,72,65,64,43,6f,6e,74,72,6f,6c,73,3e,3c,2f,73,\
+  69,71,3a,71,61,74,3e,3c,2f,73,69,71,3a,72,69,62,62,6f,6e,3e,3c,2f,73,69,71,\
+  3a,63,75,73,74,6f,6d,55,49,3e
+"View Statusbar"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\FindResult]
+"Order Array"=hex:00,00,00,00,01,00,00,00,02,00,00,00
+"0.Type"=dword:00000078
+"1.ID"=dword:00000078
+"2.Matching Criteria"=dword:00000258
+"Sorted Column"=dword:00000000
+"Sort Order"=dword:00000001
+"Visible Array"=hex:01,00,00,00,01,00,00,00,01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\Main Frame]
+"Splitter Position"=dword:00000164
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\NotesList]
+"Order Array"=hex:00,00,00,00
+"0.Name"=dword:00000146
+"Visible Array"=hex:01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\Output Pane Splitter]
+"Horizontal Splitter Position"=dword:000001f0
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\RunLog]
+"Splitter Position"=dword:00000164
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\UI Positions\SearchReferrers]
+"Order Array"=hex:00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00
+"0.Type"=dword:00000078
+"1.ID"=dword:00000078
+"2.Details"=dword:000000c8
+"3.Target Item"=dword:000000c8
+"Sorted Column"=dword:00000000
+"Sort Order"=dword:00000001
+"Visible Array"=hex:01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\XML Config]
+
+[HKEY_CURRENT_USER\Software\Caphyon\Advanced Installer\XML Config\{049A020C-6E4B-483E-A1A0-C8E391CA3606}]
+"E:\\CLOUDCODE\\dev.azure.com\\ddongphuc38gmailcom\\adv20.6\\App\\ProgramFiles\\regid.2003-04.com.caphyon_Advanced Installer 14.8.swidtag"="*"

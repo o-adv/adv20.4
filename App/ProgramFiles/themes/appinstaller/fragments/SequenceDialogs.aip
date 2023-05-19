@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="9.4" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="WelcomeDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3"/>
+    <ROW Action="ExitDialog" Condition="NOT AiSkipExitDlg OR NOT AI_INSTALL" Sequence="-1" SeqType="3"/>
+	<ROW Action="MaintenanceWelcomeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3"/>
+    <ROW Action="FatalError" Sequence="-3" SeqType="3"/>
+    <ROW Action="PatchWelcomeDlg" Condition="AI_PATCH" Sequence="1260" SeqType="3"/>
+    <ROW Action="PrepareDlg" Sequence="75" SeqType="3"/>
+    <ROW Action="ProgressDlg" Sequence="1280" SeqType="3"/>
+    <ROW Action="ResumeDlg" Condition="AI_RESUME" Sequence="1240" SeqType="3"/>
+    <ROW Action="UserExit" Condition="AiShowUserExit" Sequence="-2" SeqType="3"/>
+    <ROW Action="AI_SetControlStyle" Condition="AI_NO_BORDER_NORMAL AND AI_CONTROL_VISUAL_STYLE_FLAT" Sequence="10" SeqType="2"/>
+	<ROW Action="AI_FinishActions" Condition="AI_INSTALL AND AiSkipExitDlg" Sequence="1360"/>
+	<ROW Action="AI_CloseBtnBaseC" Condition="DarkTheme" Sequence="51"/>
+	<ROW Action="AI_CloseBtnBorderC" Condition="DarkTheme" Sequence="52"/>
+	<ROW Action="AI_CloseBtnC" Condition="DarkTheme" Sequence="53"/>
+	<ROW Action="AI_MinBtnBaseC" Condition="DarkTheme" Sequence="54"/>
+	<ROW Action="AI_MinBtnBorderC" Condition="DarkTheme" Sequence="55"/>
+	<ROW Action="AI_MinBtnC" Condition="DarkTheme" Sequence="56"/>
+	<ROW Action="AI_FrameBaseC" Condition="DarkTheme" Sequence="57"/>
+	<ROW Action="AI_FrameBorder1C" Condition="DarkTheme" Sequence="58"/>
+	<ROW Action="AI_FrameBorder2C" Condition="DarkTheme" Sequence="59"/>
+	<ROW Action="AI_FrameBorder3C" Condition="DarkTheme" Sequence="60"/>
+	<ROW Action="AI_FrameCaption2C" Condition="DarkTheme" Sequence="61"/>
+	<ROW Action="AI_ButtonImg" Condition="DarkTheme" Sequence="62"/>
+	<ROW Action="AI_AboutBtnImg" Condition="DarkTheme" Sequence="63"/>
+	<ROW Action="AI_BkgImg" Condition="DarkTheme" Sequence="64"/>
+	<ROW Action="AI_AppLogoIc" Condition="DarkTheme" Sequence="65"/>
+	<ROW Action="AI_CheckBoxImg" Condition="DarkTheme" Sequence="66"/>
+	<ROW Action="AI_WinuiReqTheme" Condition="DarkTheme" Sequence="67"/>
+	<ROW Action="AI_ControlVisualStyleDark" Condition="DarkTheme" Sequence="66"/>
+	<ROW Action="AI_ControlVisualStyleExDark" Condition="DarkTheme" Sequence="67"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">    
+	<ROW Action="AI_CloseBtnBaseC" Condition="DarkTheme" Sequence="31"/>
+	<ROW Action="AI_CloseBtnBorderC" Condition="DarkTheme" Sequence="32"/>
+	<ROW Action="AI_CloseBtnC" Condition="DarkTheme" Sequence="33"/>
+	<ROW Action="AI_MinBtnBaseC" Condition="DarkTheme" Sequence="34"/>
+	<ROW Action="AI_MinBtnBorderC" Condition="DarkTheme" Sequence="35"/>
+	<ROW Action="AI_MinBtnC" Condition="DarkTheme" Sequence="36"/>
+	<ROW Action="AI_FrameBaseC" Condition="DarkTheme" Sequence="37"/>
+	<ROW Action="AI_FrameBorder1C" Condition="DarkTheme" Sequence="38"/>
+	<ROW Action="AI_FrameBorder2C" Condition="DarkTheme" Sequence="39"/>
+	<ROW Action="AI_FrameBorder3C" Condition="DarkTheme" Sequence="40"/>
+	<ROW Action="AI_FrameCaption2C" Condition="DarkTheme" Sequence="41"/>
+	<ROW Action="AI_ButtonImg" Condition="DarkTheme" Sequence="42"/>
+	<ROW Action="AI_AboutBtnImg" Condition="DarkTheme" Sequence="43"/>
+	<ROW Action="AI_BkgImg" Condition="DarkTheme" Sequence="44"/>
+	<ROW Action="AI_AppLogoIc" Condition="DarkTheme" Sequence="45"/>
+	<ROW Action="AI_CheckBoxImg" Condition="DarkTheme" Sequence="46"/>
+	<ROW Action="AI_WinuiReqTheme" Condition="DarkTheme" Sequence="47"/>
+	<ROW Action="AI_ControlVisualStyleDark" Condition="DarkTheme" Sequence="48"/>
+	<ROW Action="AI_ControlVisualStyleExDark" Condition="DarkTheme" Sequence="49"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_SetControlStyle" Type="51" Source="AI_CONTROL_VISUAL_STYLE" Target="[AI_CONTROL_VISUAL_STYLE_FLAT]"/>
+	<ROW Action="AI_FinishActions" Type="1" Source="aicustact.dll" Target="RunAllExitActions"/>
+	<ROW Action="AI_CloseBtnBaseC" Type="51" Source="AI_CF_CLOSEBTN_BASE_COLOR" Target="#202020"/>
+	<ROW Action="AI_CloseBtnBorderC" Type="51" Source="AI_CF_CLOSEBTN_BORDER_COLORS" Target="#202020;#e81123;#202020;#202020;#f1707a"/>
+	<ROW Action="AI_CloseBtnC" Type="51" Source="AI_CF_CLOSEBTN_COLORS" Target="#202020;#e81123;;#f1707a"/>
+	<ROW Action="AI_MinBtnBaseC" Type="51" Source="AI_CF_MINBTN_BASE_COLOR" Target="#202020"/>
+	<ROW Action="AI_MinBtnBorderC" Type="51" Source="AI_CF_MINBTN_BORDER_COLORS" Target="#202020;#cecece;#202020;#202020;#898989"/>
+	<ROW Action="AI_MinBtnC" Type="51" Source="AI_CF_MINBTN_COLORS" Target="#202020;#cecece;;#898989"/>
+	<ROW Action="AI_FrameBaseC" Type="51" Source="AI_CF_FRAME_BASE_COLOR" Target="#202020"/>
+	<ROW Action="AI_FrameBorder1C" Type="51" Source="AI_CF_FRAME_BORDER1_COLORS" Target="#202060"/>
+	<ROW Action="AI_FrameBorder2C" Type="51" Source="AI_CF_FRAME_BORDER2_COLORS" Target="#202060"/>
+	<ROW Action="AI_FrameBorder3C" Type="51" Source="AI_CF_FRAME_BORDER3_COLORS" Target="#202060"/>
+	<ROW Action="AI_FrameCaption2C" Type="51" Source="AI_CF_FRAME_CAPTION2_COLORS" Target="#202020;#202020;#202060;#202060;#202060;#202060;#202060;#202060"/>
+	<ROW Action="AI_ButtonImg" Type="51" Source="ButtonImage" Target="buttonimgsdark"/>
+	<ROW Action="AI_AboutBtnImg" Type="51" Source="AboutBtnIcon" Target="aboutbtndark"/>
+	<ROW Action="AI_BkgImg" Type="51" Source="Background" Target="[BackgroundDark]"/>
+	<ROW Action="AI_AppLogoIc" Type="51" Source="AppLogoIcon" Target="[AppLogoIconDark]"/>
+	<ROW Action="AI_CheckBoxImg" Type="51" Source="CheckboxImage" Target="checkboximgsdark"/>
+	<ROW Action="AI_WinuiReqTheme" Type="51" Source="AiWinUIRequestedTheme" Target="Dark"/>
+    <ROW Action="AI_ControlVisualStyleDark" Type="51" Source="AI_CONTROL_VISUAL_STYLE" Target="2960685;4276545;6776679;16176031"/>
+	<ROW Action="AI_ControlVisualStyleExDark" Type="51" Source="AI_CONTROL_VISUAL_STYLE_EX" Target="1513239;3026478;3026478"/>
+  </COMPONENT>
+</FRAGMENT>

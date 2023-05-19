@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="20.4" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D527574497494DA8C80F142814E315" DisplayName="ASP.NET Core Hosting Bundle 7.0.3" VersionMin="7.0"
+	  SetupFileUrl="https://download.visualstudio.microsoft.com/download/pr/ff197e9e-44ac-40af-8ba7-267d92e9e4fa/d24439192bc549b42f9fcb71ecb005c0/dotnet-hosting-7.0.3-win.exe"
+	  Location="1" ExactSize="110116584" MD5="fef6d49598b3bacbf822ba341caf55c1"
+	  WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 10 version 1507 x86, Windows 10 version 1511 x86"
+	  WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64"
+	  NoUiComLine="/q /norestart"
+	  Operator="1" Options="f" TargetName=".NET 7.0"/>
+	<ATTRIBUTE name="GroupName" value=".NET"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D527574497494DA8C80F142814E315SystemFolderfile.dll_4" Prereq="D527574497494DA8C80F142814E315" SearchType="1"
+	  SearchString="HKLM\SOFTWARE\Microsoft\Updates\.NET" VerMin="7.0.3"
+	  Order="1" Property="PreReqSearch_4_D527574497494DA8C80F142814E315"/>
+  </COMPONENT>
+</FRAGMENT>

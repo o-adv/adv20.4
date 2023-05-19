@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="20.4" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C6F7BF650B714DC58735D62C12F214E4" DisplayName=".NET Runtime 6.0.14 x64" VersionMin="6.0"
+      SetupFileUrl="https://download.visualstudio.microsoft.com/download/pr/cdd7a605-be77-47fe-a8ac-d982c8e5d692/c8abed93d34b110b4f3d3254e56de254/dotnet-runtime-6.0.14-win-x64.exe"
+      Location="1" ExactSize="27929736" MD5="f0e8638c0ddf08bc4705b4e82d93a7b8"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="f" TargetName=".NET 6.0"/>
+    <ATTRIBUTE name="GroupName" value=".NET"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C6F7BF650B714DC58735D62C12F214E4Microsoft.NETCore.App" Prereq="C6F7BF650B714DC58735D62C12F214E4" SearchType="12"
+      SearchString="HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x64\sharedfx\Microsoft.NETCore.App" VerMin="6.0.14"
+      Order="1" Property="PreReqSearch_C6F7BF650B714DC58735D62C12F214E4"/>
+  </COMPONENT>
+</FRAGMENT>

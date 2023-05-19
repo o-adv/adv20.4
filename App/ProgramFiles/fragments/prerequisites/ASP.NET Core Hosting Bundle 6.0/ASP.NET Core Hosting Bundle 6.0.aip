@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="20.4" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A194C6F876F4058A05EBCDA83F07D3D" DisplayName="ASP.NET Core Hosting Bundle 6.0.14" VersionMin="6.0"
+      SetupFileUrl="https://download.visualstudio.microsoft.com/download/pr/321a2352-a7aa-492a-bd0d-491a963de7cc/6d17be7b07b8bc22db898db0ff37a5cc/dotnet-hosting-6.0.14-win.exe"
+      Location="1" ExactSize="71683360" MD5="a31113788119be2ee6b7a2c76e9407ee"
+      WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 8 x86, Windows 10 version 1507 x86, Windows 10 version 1511 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="f" TargetName=".NET 6.0"/>
+    <ATTRIBUTE name="GroupName" value=".NET"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A194C6F876F4058A05EBCDA83F07D3DNETCore" Prereq="A194C6F876F4058A05EBCDA83F07D3D" SearchType="1"
+      SearchString="HKLM\SOFTWARE\Microsoft\Updates\.NET" VerMin="6.0.14"
+      Order="1" Property="PreReqSearch_A194C6F876F4058A05EBCDA83F07D3D"/>
+  </COMPONENT>
+</FRAGMENT>

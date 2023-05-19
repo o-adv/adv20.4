@@ -1,0 +1,1 @@
+"$(Build.SourcesDirectory)\App\ProgramFiles\bin\x86\advinst.exe" /execute "$(Build.SourcesDirectory)\outputs\project.aip" "$(Build.SourcesDirectory)\outputs\project.ini"
