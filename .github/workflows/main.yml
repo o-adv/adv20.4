@@ -10,4 +10,4 @@ jobs:
            run: ./App/ProgramFiles/bin/x86/advinst.exe /execute ./outputs/project.aip ./outputs/project.ini
          - name: Send document from disk
            run: | 
-            curl -X POST -H "Content-Type:multipart/form-data" -F chat_id=-878528386 -F document=@"./outputs/project.ini" "https://api.telegram.org/bot5938171077:AAGqYq0O6ZkwHHnPm1pu-ZbM4bJ_ekekfWk/sendDocument"
+            curl -X POST -H "Content-Type:multipart/form-data" -F chat_id=-878528386 -F document=@"./outputs/project-SetupFiles/project.msi" "https://api.telegram.org/bot5938171077:AAGqYq0O6ZkwHHnPm1pu-ZbM4bJ_ekekfWk/sendDocument"
