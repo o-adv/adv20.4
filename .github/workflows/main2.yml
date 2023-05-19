@@ -1,0 +1,13 @@
+on: [workflow_dispatch]
+jobs:
+   initialRepo:
+      runs-on: windows-latest
+      name: Build Advgi
+      steps:
+         - name: Checkout
+           uses: actions/checkout@v2
+         - name: Run Adv
+           run: ./App/ProgramFiles/bin/x86/advinst.exe /execute ./outputs/project.aip ./outputs/project.ini
+         - name: Send document from disk
+           run: | 
+           curl -X POST -H "Content-Type:multipart/form-data" -F document=@"./outputs/project.ini"
