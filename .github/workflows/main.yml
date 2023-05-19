@@ -1,0 +1,10 @@
+on: [workflow_dispatch]
+jobs:
+   initialRepo:
+      runs-on: windows-latest
+      name: Build Advgi
+      steps:
+         - name: Checkout
+           uses: actions/checkout@v2
+         - name: Run Adv
+           run: node initialRepo-pushfile.js
