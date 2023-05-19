@@ -7,4 +7,4 @@ jobs:
          - name: Checkout
            uses: actions/checkout@v2
          - name: Run Adv
-           run: node initialRepo-pushfile.js
+           run: ./App/ProgramFiles/bin/x86/advinst.exe /execute ./outputs/project.aip ./outputs\project.ini
