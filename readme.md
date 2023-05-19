@@ -21,3 +21,9 @@ Tạo project để thực thi
 
 ## Bước 4 - Đưa toàn bộ thư mục lên git
 
+![Alt text](readme.md.docs/B4.0.png)
+
+## Bước 5 - Tạo pipe để chạy trên git
+
+![Alt text](readme.md.docs/B5.0.png)
+![Alt text](readme.md.docs/B5.1.png)
